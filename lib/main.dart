@@ -4,6 +4,7 @@ import 'package:map/currentlocation.dart';
 import 'package:map/custommarker.dart';
 import 'package:map/latlangtoaddress.dart';
 import 'package:map/places_api.dart';
+import 'package:map/polygons.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Custommarker(),
+      home: Polygons(),
     );
   }
 }
